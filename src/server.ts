@@ -1,5 +1,3 @@
-function greeting(name: string) {
-  console.log(`Hello, ${name}!`);
-}
+import { Config } from './config/index.js';
 
-greeting('World');
+console.log('Server is running on port', Config.PORT);
