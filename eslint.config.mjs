@@ -19,5 +19,14 @@ export default defineConfig(
       'no-unused-vars': 'warn',
     },
   },
-  { ignores: ['node_modules/*', 'dist/*', 'build', 'coverage', 'public'] },
+  {
+    ignores: [
+      'node_modules/*',
+      'dist/*',
+      'build',
+      'coverage',
+      'public',
+      'jest.config.js',
+    ],
+  },
 );

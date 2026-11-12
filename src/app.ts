@@ -1,13 +1,15 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 /* eslint-disable no-unused-vars */
+import type { NextFunction, Request, Response } from 'express';
 import express from 'express';
 import logger from './config/logger';
-import { HttpError } from 'http-errors';
-import type { Request, Response, NextFunction } from 'express';
+import creatHttpError, { HttpError } from 'http-errors';
 
 const app = express();
 
 app.get('/', (req, res) => {
+  // const err = creatHttpError(404, 'Not Found');
+  // throw err;
   res.send('Hello, World!');
 });
 
