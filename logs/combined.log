@@ -11,3 +11,5 @@
 {"level":"error","message":"Not Found","timestamp":"2026-11-12T18:08:38.640Z"}
 {"level":"error","message":"Not Found","timestamp":"2026-11-12T18:08:51.615Z"}
 {"level":"error","message":"Not Found","timestamp":"2026-11-12T18:09:12.589Z"}
+{"level":"info","message":"Server is running on port ","port":"5000","timestamp":"2026-11-13T17:47:46.484Z"}
+{"level":"info","message":"Server is running on port ","port":"5000","timestamp":"2026-11-13T17:48:21.992Z"}

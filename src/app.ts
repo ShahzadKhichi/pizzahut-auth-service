@@ -10,7 +10,7 @@ const app = express();
 app.get('/', (req, res) => {
   // const err = creatHttpError(404, 'Not Found');
   // throw err;
-  res.send('Hello, World!');
+  res.send('Hello, World');
 });
 
 app.use((err: HttpError, req: Request, res: Response, next: NextFunction) => {
